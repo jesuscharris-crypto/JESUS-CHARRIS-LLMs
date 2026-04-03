@@ -1,0 +1,17 @@
+PREGUNTA 3 
+El Problema:
+
+En sistemas de machine learning en producción, los datos nuevos pueden diferir de los datos originales, afectando el rendimiento del modelo. Este fenómeno se conoce como cambio en la distribución de los datos (data drift).
+
+Debes detectar si existe un cambio significativo entre dos conjuntos de datos.
+
+Tu Misión: Escribe una función llamada detectar_data_drift(X_train, X_new) que realice lo siguiente:
+Escale ambos conjuntos de datos.
+Reduzca la dimensionalidad a dos componentes principales.
+Calcule el centroide de cada conjunto.
+Calcule la distancia entre los centroides.
+Determine si existe drift con base en esa distancia.
+La función debe devolver:
+Un diccionario con:
+Distancia entre centroides
+Indicador booleano de drift

@@ -10,7 +10,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 # FASE 1 - PASO 2: GENERADOR DE CASOS DE USO
 # =====================================================
 
-def generar_caso_uso_optimizacion():
+def generar_caso_de_uso_optimizacion():
     """
     Genera un caso de prueba aleatorio para la función optimizar_modelo_clasificacion
     """
@@ -81,7 +81,7 @@ def generar_caso_uso_optimizacion():
 
 if __name__ == "__main__":
 
-    inputs, expected = generar_caso_uso_optimizacion()
+    inputs, expected = generar_caso_de_uso_optimizacion()
 
     print("======== INPUTS ========")
     for k, v in inputs.items():

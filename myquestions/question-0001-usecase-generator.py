@@ -82,7 +82,7 @@ def generar_caso_de_uso_evaluar_modelo():
 
 if __name__ == "__main__":
 
-    inputs, expected = generar_de_caso_uso_evaluar_modelo()
+    inputs, expected = generar_caso_de_uso_evaluar_modelo()
 
     print("======== INPUTS ========")
     for k, v in inputs.items():
